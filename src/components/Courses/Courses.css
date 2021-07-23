@@ -1,0 +1,30 @@
+.courses_section {
+  /* height: 50vh; */
+  background: #eee7e7;
+}
+.courses_section h5 {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fb5b16;
+}
+.courses_container {
+  display: flex;
+  margin-top: 40px;
+}
+@media only screen and (min-width: 320px) {
+  .courses_container {
+    display: block;
+    margin-top: 40px;
+  }
+  .courses_section h5 {
+    padding-top: 100px;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .courses_container {
+    display: flex;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,90 @@
+.why_coding_section {
+  height: 80vh;
+}
+.why_coding_section_text {
+  font-family: "Roboto";
+  margin: 50px;
+}
+.why_coding_section_text h4 {
+  text-align: center;
+  color: #fb5b16;
+  font-weight: bold;
+}
+.why_coding_section_text h6 {
+  text-align: center;
+}
+
+.coding_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left_axis {
+  height: 250px;
+  width: 300px;
+  margin-right: 20px;
+}
+.skills {
+  padding: 6px 6px;
+}
+.skills p {
+  font-family: "Roboto";
+  margin-left: 60px;
+}
+.skills span {
+  font-weight: bold;
+}
+.center_section img {
+  width: 333px;
+  height: 348px;
+}
+.right_axis {
+  height: 250px;
+  width: 300px;
+  margin-left: 50px;
+}
+.book_btn {
+  text-align: center;
+  margin-top: 30px;
+}
+.book_btn button {
+  color: #ffffff;
+  background: #fb5b16;
+  width: 163px;
+  height: 44px;
+  border-radius: 14px;
+  border: 0px;
+}
+@media only screen and (min-width: 320px) {
+  .why_coding_section {
+    height: 800px;
+  }
+  .center_section img {
+    display: none;
+  }
+  .coding_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left_axis {
+    margin-right: 0;
+  }
+  .right_axis {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .center_section img {
+    display: block;
+  }
+  .coding_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .why_coding_section {
+    height: 80vh;
+  }
+}
